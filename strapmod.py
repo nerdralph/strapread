@@ -14,9 +14,9 @@ strap = strap[:80] + '10' + strap[82:]
 print "Old, new FAW:", strap[51], ", 0"
 strap = strap[:51] + '0' + strap[52:]
 
-t32AW = int(strap[52],16)
+t32AW = int(strap[52],16) + int(strap[55])*16
 print "Old, new 32AW:", t32AW/2, ", 0"
-strap = strap[:52] + '0' + strap[53:]
+strap = strap[:52] + '0' + strap[53:55] + '0' + strap[56:]
 
 print sys.argv[1]
 print strap
