@@ -12,10 +12,10 @@ else:
   print "R9 strap detected"
   RAS=16
 
-print "Old, new RRD:", strap[28], ", 5"
+print "Old, new RRD:", strap[RAS+4], ", 5"
 strap = strap[:RAS+4] + '5' + strap[RAS+5:]
 
-print "Old, new FAW:", strap[51], ", 0"
+print "Old, new FAW:", strap[RAS+27], ", 0"
 strap = strap[:RAS+27] + '0' + strap[RAS+28:]
 
 t32AW = int(strap[RAS+28],16)/2 + int(strap[RAS+31])*8
