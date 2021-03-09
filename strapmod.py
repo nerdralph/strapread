@@ -6,7 +6,7 @@ import sys
 strap = sys.argv[1]
 
 if strap[4] == '0':
-  print "Rx strap detected"
+  print "777000000000000022339D00CE516A3B805511112FCBD408004AE6006C0014206A8900A002003120150F272D8D263015"
   RAS=24
 else:
   print "R9 strap detected"
