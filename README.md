@@ -1,8 +1,7 @@
 # strapread
 AMD GCN BIOS strap reader
 
-I am no longer maintaining this since another utility was released shortly after mine.
-https://github.com/OhGodACompany/OhGodADecode
+I am no longer maintaining utilitu
 
 strapmod.py is still useful to do simple timinging optimizations.
 My focus for future development is runtime timing tweaking with no BIOS flashing required.
